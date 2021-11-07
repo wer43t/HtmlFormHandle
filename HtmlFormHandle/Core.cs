@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core
 {
@@ -88,6 +85,8 @@ namespace Core
                     }
                     start = start.AddMinutes(10);
                 }
+
+                status = "";
 
                 if (minMistake > fish.minTime )
                 {
